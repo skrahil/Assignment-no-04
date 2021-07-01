@@ -1,0 +1,8 @@
+#Assignment no 04
+a= int(input("enter the altitude :"))
+if a<1000:
+    print("land the plane")
+elif a>1000 and a<=5000:
+    print("come down to 1000ft")
+else:
+    print("go around and try agan later")
